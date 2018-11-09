@@ -7,9 +7,9 @@ function findMatching(drivers, string){
 
 function fuzzyMatch(drivers, string){
   let n = string.length 
-  driver.filter(function (d) {
+  let b = driver.filter(function (d) {
     d.slice(n) == string
   })
-  
+  return b 
 }
 
