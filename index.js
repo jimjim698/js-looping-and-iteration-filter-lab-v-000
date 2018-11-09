@@ -5,3 +5,11 @@ function findMatching(drivers, string){
    return b
 }
 
+function fuzzyMatch(drivers, string){
+  let n = string.length 
+  driver.filter(function (d) {
+    d.slice(n) == string
+  })
+  
+}
+
